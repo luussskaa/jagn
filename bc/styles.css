@@ -1,0 +1,70 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #0f0f0f;
+  background-color: #f6f6f6;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+textarea {
+  width: 500px;
+  min-height: 400px;
+  text-align: justify;
+  resize: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(231, 230, 230);
+  border-radius: 25px;
+  padding: 25px;
+  font-size: 1.2rem;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 100px;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+h6 {
+  margin: 0;
+  text-align: center;
+}
+
+#AddNote {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #0f0f0f;
+  color: #f6f6f6;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.container {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.container button {
+  margin: 0;
+}
