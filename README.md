@@ -8,4 +8,4 @@ With jagn all the important formatting is done automatically, so your notes will
 
 You can also add structure to your notes, adding titles and subtitles while all the margins, font-sizes and text alingments are done behind the scenes.
 
-More than creating, viewing, editing and deleting notes, yagn also lets you print them or turn them into a pdf file as well.
+More than creating, viewing, editing and deleting notes, yagn also lets you print them or turn them into pdf files as well.
