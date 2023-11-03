@@ -20,11 +20,6 @@ export default function NewNote({ toEdit }) {
     const [save, setSave] = useState(false);
     const handleTitle = (evt) => {
         title = evt.target.value;
-        if (title !== '') {
-            setSave(true);
-        } else {
-            setSave(false);
-        }
     }
     const handleNote = (evt) => {
         note = evt.target.value;

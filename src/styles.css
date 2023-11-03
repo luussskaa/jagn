@@ -3,20 +3,40 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
-  color: #ffffff;
+  color: #f6f6f6;
   background: #191919;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --bg_hover: #ffffff34;
+  --bg_color: rgba(255, 255, 255, 0.096);
+  --active_border: #f6f6f6;
+  --bg_hover_disabled: #ff000069;
+}
 
-  --a: #833ab4;
-  --b: #ff2f2f;
-  --c: #ffffff2c;
-  --d: #4361ee;
-  --e: #ffffff50;
+.AddNote {
+  width: 100%;
+  border-radius: 50px;
+  background-color: var(--bg_color);
+  transition: all 0.6s;
+}
+
+.AddNote img {
+  width: 32px;
+  margin-right: 5px;
+  filter: invert();
+}
+
+.AddNote:hover {
+  background-color: var(--bg_hover);
+}
+
+.AddNote:active,
+button:active,
+a:active {
+  border: 2px solid var(--active_border);
 }
 
 textarea,
@@ -31,8 +51,7 @@ input {
   border-radius: 10px;
   padding: 25px;
   font-size: 1.2rem;
-  background-color: #252525;
-  color: #ffffff;
+  background-color: var(--bg_color);
 }
 
 input {
@@ -45,41 +64,29 @@ a {
   height: 60px;
   border: none;
   border-radius: 50px;
-  color: white;
   font-size: 1.2rem;
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.096);
+  color: #f6f6f6;
+  background-color: var(--bg_color);
   transition: all 0.06s;
 }
 
 button:hover,
 a:hover {
-  background-color: #ffffff34;
+  background-color: var(--bg_hover);
 }
 
 button:hover:disabled {
-  background-color: #ff000069;
+  background-color: var(--bg_hover_disabled);
 }
 
 h6 {
   margin: 0;
   text-align: center;
-}
-
-.AddNote {
-  width: 100%;
-  border-radius: 50px;
-  background-color: rgba(255, 255, 255, 0.096);
-  color: #f6f6f6;
-  transition: all 0.6s;
-}
-
-.AddNote:hover {
-  background-color: #ffffff34;
 }
 
 .container {
@@ -93,12 +100,12 @@ h6 {
   padding: 5px 20px;
   box-sizing: border-box;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.096);
+  background-color: var(--bg_color);
   transition: all 0.6s;
 }
 
 .container:hover {
-  background-color: #ffffff34
+  background-color: var(--bg_hover);
 }
 
 .title {
@@ -107,12 +114,6 @@ h6 {
 
 img {
   width: 32px;
-  filter: invert();
-}
-
-.AddNote img {
-  width: 32px;
-  margin-right: 5px;
   filter: invert();
 }
 
