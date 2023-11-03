@@ -52,6 +52,7 @@ input {
   padding: 25px;
   font-size: 1.2rem;
   background-color: var(--bg_color);
+  color: #f6f6f6;
 }
 
 input {
